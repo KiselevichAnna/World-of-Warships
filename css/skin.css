@@ -1,0 +1,169 @@
+.navigation-top__left-area ._link.project_r {
+  color: #FB9100 !important;
+}
+
+[v-style-content] { display: none; }
+
+#main .main-page .main-content__top .background, 
+#main .main-content__top.news .background,
+#main  .main-content__top.guides .background,
+#background-image {
+    background-image: url(images/096.jpg);
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+	opacity: 1 !important;
+	visibility: visible !important;
+    
+}
+
+#main .main-content__top {
+	min-height: 250px;
+}
+
+.promo-new-body #main-content .top_content .top_content-widget {
+    display: none !important;
+}
+
+.promo-new-body #main-content .main-content__container .top_content-widget {
+    display: initial !important;
+}
+
+._rank {
+	display:none;
+}
+
+.top-menu__wrapper .navigation-menu__navigation__wrapper .navigation-item .item-link {
+	font-size: 14px;
+}
+
+.banner-widget__referral__wrapper {
+	    background-color: rgba(0, 0, 0, 0);
+}
+
+.banner-widget__referral__header {
+	font-size: 32px;
+}
+
+.banner-widget__referral__content {
+	font-size: 24px;
+}	
+
+.account-grafs__sector-Pan_Europe-rank {
+	display:none  !important;
+}
+
+.account-grafs__sector-Pan_Europe-pvp {
+	display:none  !important;
+}
+
+.account-grafs__sector-Pan_Europe-pve {
+	display:none  !important;
+}
+
+.clan-rank {
+	display:none;
+}
+
+#main-top-menu .mobile-title {
+	display: none;
+}
+
+#background-texture {
+	background: #0c2a35;
+    background-image: url(images/texture.jpg) !important;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.page__title {
+color: #fff;
+}
+
+.account-profile__information>._nick {
+    color: #fff;
+}
+
+html[lang="zh-tw"] .navigation-top__logo {
+width: 118px;
+background-image: url(images/logo_tw.png);
+}
+
+.shipInTarget ._flag-pan_asia{
+	background-image:url(images/pan_asia.png);
+	background-repeat:no-repeat;
+}
+
+.gallery__main__footer .footer__title {
+ 	display: none;
+}
+.gallery__main__footer .footer__actions {
+	margin-left: 0;
+}
+
+.global-search-field._mobile {
+display: none;
+}
+
+@media screen and (min-width: 2000px) {
+	#main .main-content__top {
+		min-height: 280px;
+	}
+}
+
+
+/* ------CONSOLE MENU BUTTON BELOW------ */
+
+/*@media screen and (min-width: 786px) {
+	#main-top-menu .navigation-item:last-child a {
+		width: 120px;
+		color: transparent;
+		overflow: hidden;
+		position: relative;
+		height: 100%;
+	}
+
+	#main-top-menu .navigation-item:last-child .item-link:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		background-image: url('images/consoles.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		border-bottom: 3px solid transparent;
+		transition: all .3s;
+	}
+}
+
+
+@media screen and (max-width: 786px) {
+	#main-top-menu .navigation-mobile:not(._sub-menu) .menu-item:last-child .item-link * {
+		display: none;
+	}
+
+	#main-top-menu .navigation-mobile:not(._sub-menu) .menu-item:last-child .item-link {
+		position: relative;
+	}
+
+	#main-top-menu .navigation-mobile:not(._sub-menu) .menu-item:last-child .item-link:after {
+		content: '';
+		width: 120px;
+		height: 100%;
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 49px;
+		background-image: url('images/consoles.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}*/
